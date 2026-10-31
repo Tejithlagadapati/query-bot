@@ -1,0 +1,9 @@
+Expenses can be claimed for the following categories:
+- Software: For purchasing, renewing, or upgrading software licenses and subscriptions.
+- Cloud: For cloud computing services such as AWS, Azure, GCP, and related infrastructure costs.
+- Travel: For costs associated with business travel including flights, hotels, and ground transportation.
+
+Policy Guidelines:
+- All expenses must be reasonable and necessary for business purposes.
+- Each expense should be accurately categorized to ensure proper tracking.
+- Large expenses may require additional documentation or approvals.
