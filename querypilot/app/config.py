@@ -16,3 +16,5 @@ CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
 
 EMBED_MODEL = "nomic-embed-text"
+
+COLLECTION_NAME = "policies"
