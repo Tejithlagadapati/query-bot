@@ -1,0 +1,10 @@
+CLOUD SPENDING POLICY
+
+1. PURPOSE
+This policy controls spending on cloud hosting, storage and compute resources.
+
+2. PROJECT TAGGING
+Every cloud resource must be tagged with a project code. Untagged resources may be shut down after 7 days.
+
+3. BUDGET ALERTS
+Finance will notify a department when its cloud spending reaches 80 percent of its budget. Spending above 100 percent of budget needs approval from the department head.

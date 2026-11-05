@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question": "Who must approve software expenses above 10,000 rupees?",
+    "route": "docs",
+    "expected_answer": "Manager approval is required.",
+    "source": "sample_policy.txt"
+  },
+  {
+    "id": 2,
+    "question": "What must cloud infrastructure expenses include when they are submitted?",
+    "route": "docs",
+    "expected_answer": "A project reference.",
+    "source": "sample_policy.txt"
+  },
+  {
+    "id": 3,
+    "question": "What is the submission deadline for travel expenses?",
+    "route": "docs",
+    "expected_answer": "FILL_FROM_SAMPLE_POLICY",
+    "source": "sample_policy.txt"
+  },
+  {
+    "id": 4,
+    "question": "What was the total software spending between 1 July 2026 and 30 September 2026?",
+    "route": "sql",
+    "expected_answer": "52800",
+    "source": "expenses"
+  },
+  {
+    "id": 5,
+    "question": "Which department and category combinations have spent more than their budget across all recorded expenses?",
+    "route": "sql",
+    "expected_answer": "Engineering Software (30700 spent vs 20000 budget) and Security Software (17000 spent vs 8000 budget).",
+    "source": "expenses + budgets"
+  },
+  {
+    "id": 6,
+    "question": "Which vendor has received the highest total payments across all recorded expenses?",
+    "route": "sql",
+    "expected_answer": "DevTools Pro, with 35800.",
+    "source": "expenses + vendors"
+  },
+  {
+    "id": 7,
+    "question": "Which software expenses between 1 July 2026 and 30 September 2026 required manager approval under the expense policy?",
+    "route": "both",
+    "expected_answer": "Expense 9 (Engineering, 15000, Annual IDE licences, 2026-09-18) and expense 10 (Security, 11000, Endpoint protection licences, 2026-08-25).",
+    "source": "sample_policy.txt + expenses"
+  },
+  {
+    "id": 8,
+    "question": "What is the total value of software expenses between 1 July 2026 and 30 September 2026 that needed manager approval under the policy?",
+    "route": "both",
+    "expected_answer": "26000",
+    "source": "sample_policy.txt + expenses"
+  },
+  {
+    "id": 9,
+    "question": "Did the Data department have any software expense between 1 July 2026 and 30 September 2026 that needed manager approval under the policy?",
+    "route": "both",
+    "expected_answer": "No. Its only software expense was 5100, below the approval threshold.",
+    "source": "sample_policy.txt + expenses"
+  },
+  {
+    "id": 10,
+    "question": "What is the company's remote work policy?",
+    "route": "neither",
+    "expected_answer": "Not covered by the available documents or database; the system should say it doesn't know.",
+    "source": "none"
+  }
+]

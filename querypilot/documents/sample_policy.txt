@@ -1,9 +1,25 @@
-Expenses can be claimed for the following categories:
-- Software: For purchasing, renewing, or upgrading software licenses and subscriptions.
-- Cloud: For cloud computing services such as AWS, Azure, GCP, and related infrastructure costs.
-- Travel: For costs associated with business travel including flights, hotels, and ground transportation.
+EXPENSE REIMBURSEMENT POLICY
+Version 1.0
 
-Policy Guidelines:
-- All expenses must be reasonable and necessary for business purposes.
-- Each expense should be accurately categorized to ensure proper tracking.
-- Large expenses may require additional documentation or approvals.
+1. GENERAL BUSINESS EXPENSES
+
+Employees may claim reimbursement for business expenses that are necessary for their work and supported by a valid receipt or invoice. Personal expenses are not reimbursable. Claims without supporting documents will be returned to the employee for correction.
+
+2. SOFTWARE EXPENSES
+
+Software subscriptions and licences are reimbursable when they are needed for a business purpose. Any single software expense above ₹10,000 requires approval from the employee's manager before the purchase is made. Software expenses of ₹10,000 or less do not require manager approval but must still be recorded with a description of their purpose.
+
+3. CLOUD INFRASTRUCTURE EXPENSES
+
+All cloud infrastructure expenses must include a project reference when they are submitted. Cloud expenses without a project reference will not be processed until the reference is provided. Departments are responsible for monitoring their cloud spending against the budget allocated to them.
+
+4. TRAVEL EXPENSES
+
+Travel expenses must be submitted within 30 days of the end of the trip. Claims submitted after this deadline may be rejected unless a manager provides a written explanation for the delay. Travel claims must include tickets, accommodation receipts and a short description of the purpose of the trip.
+
+5. SUBMISSION AND REVIEW
+
+Expense claims are reviewed by the finance team within 10 working days of submission. Employees will be notified if a claim is approved, rejected or needs more information.
+
+
+
